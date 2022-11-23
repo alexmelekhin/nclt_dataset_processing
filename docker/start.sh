@@ -38,6 +38,6 @@ docker run -it -d --rm \
     --name ${USER}_nclt_dataset_processing \
     --net host \
     --ipc host \
-    -v $BASE_PATH/..:/home/docker_nclt/nclt_dataset_processing: rw \
+    -v $BASE_PATH/..:/home/docker_nclt/nclt_dataset_processing:rw \
     -v $DATASET_DIR:/home/docker_nclt/Dataset:rw \
     nclt_dataset_processing
