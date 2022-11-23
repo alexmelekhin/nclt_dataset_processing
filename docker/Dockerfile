@@ -16,7 +16,8 @@ RUN pip3 install --upgrade pip setuptools
 RUN pip3 install \
     opencv-python \
     tqdm \
-    numpy
+    numpy \
+    pandas
 
 # add user and his password
 ARG USER=docker_nclt
