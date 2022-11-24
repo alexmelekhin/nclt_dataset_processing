@@ -17,7 +17,8 @@ RUN pip3 install \
     opencv-python \
     tqdm \
     numpy \
-    pandas
+    pandas \
+    matplotlib
 
 # add user and his password
 ARG USER=docker_nclt
